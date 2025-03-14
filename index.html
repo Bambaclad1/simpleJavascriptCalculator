@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles.css">
+    <title>Javascript Calculator</title>
+  </head>
+  <body>
+    <script src="src/script.js"></script>
+    <h1>Simple JavaScript Calculator</h1>
+    <hr>
+    <div class="calculatorContainer">
+        <div class="row1">
+            <button onclick="saveInput(7)">7</button>
+            <button onclick="saveInput(8)">8</button>
+            <button onclick="saveInput(9)">9</button>
+            <button onclick="clickedSubstract()">-</button>
+        </div>
+        <div class="row2"> 
+            <button onclick="saveInput(4)">4</button>
+            <button onclick="saveInput(5)">5</button>
+            <button onclick="saveInput(6)">6</button>
+            <button onclick="clickedAdd()">+</button>
+        </div>
+        <div class="row3">
+            <button onclick="saveInput(1)">1</button>
+            <button onclick="saveInput(2)">2</button>
+            <button onclick="saveInput(3)">3</button>
+            <button onclick="clickedMultiply()">*</button>
+        </div>
+        <div class="row4">
+            <button onclick="saveInput(0)">0</button>
+            <button onclick="clickedEquals()">=</button>
+            <button onclick="saveInput(',')">,</button>
+            <button onclick="clickedDivide()">/</button>
+        </div>
+        <p id="htmlinput">Input: </p>
+        <p id="answer">Answer: </p>
+        <div class="smallDisclaimer">
+            <p>JavaScript Friendly!</p>
+        </div>
+    </div>
+  </body>
+</html>
